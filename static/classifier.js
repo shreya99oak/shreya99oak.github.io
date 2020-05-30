@@ -51,7 +51,7 @@ async function initialize() {
   // const model = await tf.loadModel(handler);
 
 
-const handler = tf.io.fileSystem("../model/model.json");
+const handler = tf.io.fileSystem('../model/model.json');
 const model = await tf.loadModel(handler);
 };
 
